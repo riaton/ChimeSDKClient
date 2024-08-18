@@ -20,16 +20,3 @@ if (rootElement) {
     </ThemeProvider>
   );
 }
-
-/** 
-window.addEventListener('load', () => {
-  ReactDOM.render(
-  <ThemeProvider theme={lightTheme}>
-    <MeetingProvider>
-      <MeetingForm />
-      <Meeting />
-    </MeetingProvider>
-  </ThemeProvider>
-  , document.getElementById('root'));
-});
-**/
